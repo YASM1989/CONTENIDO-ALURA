@@ -8,4 +8,6 @@ la comparación
 */
 if(numeroUsuario==numeroSecreto){
     alert('Acertaste el número');
-}
+} else {
+    alert ('Lo siento, no acertaste')
+};
