@@ -22,6 +22,11 @@ while (numeroUsuario != numeroSecreto){
         }
         intentos=intentos+1
         palabraIntentos ='intentos';
+        palabraIntentos='veces'
+        if(intentos>3){
+            alert('Llegaste al número máximo de intentos');
+            break;
+        }
         //incrementamos el contador cuando no acierta 
         //La condición no se cumplíó 
         //alert ('Lo siento, no acertaste');
