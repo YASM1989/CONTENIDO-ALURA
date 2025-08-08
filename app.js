@@ -14,7 +14,7 @@ if(numeroUsuario==numeroSecreto){
         alert('El número secreto es menor');
     } else {
         
-        ('El número secreto es menor');
+        ('El número secreto es mayor');
     }
     //La condición no se cumplíó 
     //alert ('Lo siento, no acertaste');
