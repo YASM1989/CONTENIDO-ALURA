@@ -10,6 +10,12 @@ if(numeroUsuario==numeroSecreto){
     // Acertamos, fue verdadera la condición
     alert(`Acertaste, el número es: ${numeroUsuario}`);
 } else {
+    if(numeroUsuario>numeroSecreto) {
+        alert('El número secreto es menor');
+    } else {
+        
+        ('El número secreto es menor');
+    }
     //La condición no se cumplíó 
-    alert ('Lo siento, no acertaste')
-};
+    //alert ('Lo siento, no acertaste');
+}
