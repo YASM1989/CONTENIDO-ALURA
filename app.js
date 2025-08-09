@@ -3,7 +3,7 @@ let numeroSecreto=8;
 let numeroUsuario=0;
 let intentos = 1; 
 //let palabraIntentos='intento';
-let maximosIntentos=3;
+let maximosIntentos=2;
 
 while (numeroUsuario != numeroSecreto){    
     numeroUsuario = prompt ("Me indicas un número entre 1 y 10 por favor:");
