@@ -3,7 +3,7 @@ let numeroSecreto=8;
 let numeroUsuario=0;
 let intentos = 1; 
 //let palabraIntentos='intento';
-let maximosIntentos=2;
+let maximosIntentos=3;
 
 while (numeroUsuario != numeroSecreto){    
     numeroUsuario = prompt ("Me indicas un número entre 1 y 10 por favor:");
@@ -28,7 +28,7 @@ while (numeroUsuario != numeroSecreto){
         //intentos +=1; lo que tiene es uno a uno
         //intentos++con este reducimos el código
          intentos++;
-         
+
         palabraIntentos='veces'
         if(intentos>maximosIntentos){
             alert(`Llegaste al número máximo de ${maximosIntentos} intentos`);
