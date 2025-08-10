@@ -4,7 +4,7 @@ let numeroSecreto= Math.floor(Math.random()*10)+1;
 let numeroUsuario=0;
 let intentos = 1; 
 //let palabraIntentos='intento';
-let maximosIntentos=3;
+let maximosIntentos=6;
 
 console.log(numeroSecreto);
 
